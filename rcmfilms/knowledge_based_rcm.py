@@ -88,4 +88,6 @@ def build_chart(gen_df, percentile=0.8):
     return q_movies
 
 
-build_chart(gen_df).head()
+# build_chart(gen_df).head()
+df.to_csv('datasets/metadata_clean.csv', index=False)
+
